@@ -107,6 +107,12 @@
         <dependency><groupId>org.lwjgl</groupId><artifactId>lwjgl-yoga</artifactId><classifier>${lwjgl.natives}</classifier></dependency>
         <dependency><groupId>org.lwjgl</groupId><artifactId>lwjgl-zstd</artifactId><classifier>${lwjgl.natives}</classifier></dependency>
         <dependency><groupId>org.joml</groupId><artifactId>joml</artifactId><version>${joml.version}</version></dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>20.1.0</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
 </project>
